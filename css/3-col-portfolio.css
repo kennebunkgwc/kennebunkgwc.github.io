@@ -11,3 +11,7 @@ body {
 .portfolio-item {
     margin-bottom: 25px;
 }
+
+.navbar-contrast{
+    background-color: #01426a;
+}
