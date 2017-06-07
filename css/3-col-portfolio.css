@@ -3,9 +3,13 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
-
 body {
-    padding-top: 100px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    padding-top: 150px;
+    font-family: 'Open Sans';
+}
+
+.page-header {
+  border-bottom: 2px dotted #f4364c;
 }
 
 .portfolio-item {
@@ -14,4 +18,55 @@ body {
 
 .navbar-contrast{
     background-color: #01426a;
+}
+
+.navbar-collapse{
+    position:relative;
+}
+
+.navbar-nav{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.navbar-nav li a{
+    font-size: 25px;
+    font-weight: 550;
+    color: #fff;
+}
+
+.navbar-nav li a:hover{
+    color: #01426a;
+}
+
+.hr {
+    border-bottom: 2px dotted #f4364c;
+}
+
+.welcome {
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 900;
+    font-size: 40;
+    color: #01426a;
+}
+
+.contact{
+    text-align: center;
+}
+
+.contact iframe{
+    display: inline-block;
+}
+
+.project {
+    position: relative;
+} 
+ 
+.project iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
 }
