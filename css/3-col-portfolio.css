@@ -65,12 +65,16 @@ body {
 }
 
 .project iframe {
-  position: absolute;
-  top:0;
-  left: 0;
-  width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
 }
 
 .content {
-  padding-bottom: 25px;
+    padding-bottom: 25px;
+}
+
+.csimpact{
+    border:  2px dotted #f4364c;
 }
