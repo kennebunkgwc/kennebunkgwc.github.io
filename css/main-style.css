@@ -15,11 +15,6 @@ body {
     background-color: #01426a;
 }
 
-.navbar-collapse{
-    position:relative;
-}
-
-
 .navbar-nav li a{
     font-size: 25px;
     font-weight: 550;
