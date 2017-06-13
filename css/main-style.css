@@ -11,18 +11,37 @@ body {
     margin-bottom: 25px;
 }
 
-.navbar-contrast{
+ul{
+  vertical-align:bottom;
+}
+
+.navbar-default{
     background-color: #01426a;
+    color: #fff;
+}
+
+.navbar-nav ul{
+    vertical-align:bottom;
 }
 
 .navbar-nav li a{
     font-size: 25px;
-    font-weight: 550;
+    font-weight: 500;
+    font-variant: small-caps;
     color: #fff;
 }
 
-.navbar-nav li a:hover{
-    color: #01426a;
+.navbar-default .navbar-nav>li>a:hover {
+    color: #6ECEB2;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #FFF;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
 }
 
 .hr {
@@ -33,7 +52,7 @@ body {
     text-align: center;
     padding-top: 50px;
     font-weight: 900;
-    font-size: 40;
+    font-size: 40px;
     color: #01426a;
 }
 
